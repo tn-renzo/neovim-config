@@ -166,6 +166,12 @@ require("lazy").setup({
 		},
 	},
 
+	"hrsh7th/nvim-cmp",
+	dependencies = {
+		"hrsh7th/cmp-buffer",
+		"hrsh7th/cmp-path",
+	},
+
 	{ -- Fuzzy Finder (files, lsp, etc)
 		"nvim-telescope/telescope.nvim",
 		-- By default, Telescope is included and acts as your picker for everything.
